@@ -11,21 +11,24 @@
 </head>
 
 <body>
-  <div class="navbar flex justify-between items-center p-4">
+  <div class="container mx-auto">
+  <div class="navbar flex justify-between items-center p-2">
     <div class="flex justify-center items-center md:order-2">
       <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
         <div class="line h-0.5 w-6 my-1 bg-black"></div>
         <div class="line h-0.5 w-6 my-1 bg-black"></div>
         <div class="line h-0.5 w-6 my-1 bg-black"></div>
       </div>
-      <div class="search md:hidden">SearchIcon</div>
+      <div class="search md:hidden ml-4"><img src="images/search.svg" alt="search-icon"></div>
     </div>
 
     <div class="logo flex text-center md:order-1">
-       <div>Microsoft</div>
+       <div class="p-4 w-36"><img src="images/RE1Mu3b.png" alt="logo"></div>
       <div class="features absolute md:static w-fit md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-100 md:translate-x-0">
         <div class="links">Microsoft365</div>
         <div class="links">Office</div>
+        <div class="links">Azure</div>
+        <div class="links">Copilot</div>
         <div class="links">Windows</div>
         <div class="links">Surface</div>
         <div class="links">Xbox</div>
@@ -33,18 +36,42 @@
       </div>
     </div>
     <div class="cart text-center md:order-3 flex">
-      <div class="search hidden md:block">SearchIcon</div>
+      <div class="search hidden md:block ml-4"><img src="images/search.svg" alt="search-icon"></div>
       <div>Cart Account</div>
     </div>
   </div>
 
-  <div class="slider flex flex-col-reverse md:flex-row bg-gray-400">
-      <div class="left">
-        <h1 class="text-4xl">Meet the newest Surface devices</h1>
+
+  <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] ">
+      <div class="left flex flex-col justify-center items-center text-center md:items-baseline py-12">
+        <h1 class="text-2xl font-medium md:text-4xl mx-5">Meet the newest Surface devices</h1>
+        <p class="w-3/4 mx-5 text-center md:text-left">Do more with Surface Laptop and Surface Pro – supercharged productivity, all-day battery life and built-in privacy and data protection.</p>
+        <button class="text-white bg-black px-4 py-2 font-bold my-6 mx-5 ">Shop Now ></button>
       </div>
       <div class="right">
         <img class="w-150" src="images/Gemini_Generated_Image_gs3f7dgs3f7dgs3f.png" alt="hero-image">
       </div>
+  </div>
+
+ <div class="promo flex flex-col  md:flex-row md:justify-center space-y-4 my-5">
+  <div class="item flex items-center mx-4 space-x-2">
+     <img src="images/Quick-Links-MSCOM-Apps.svg">
+     <span class="font-medium">Shop Microsoft 365</span>
+  </div>
+  <div class="item flex items-center mx-4 space-x-2">
+     <img src="images/Quick-Links-MSCOM-Xbox-Controller.svg">
+     <span class="font-medium">Shop XBOX</span>
+  </div>
+  <div class="item flex items-center mx-4 space-x-2">
+     <img src="images/Quick-Links-MSCOM-Apps.svg">
+     <span class="font-medium">Get Windows 11</span>
+  </div>
+  <div class="item flex items-center mx-4 space-x-2 mb-4">
+     <img src="images/Quick-Links-MSCOM-Tablet.svg">
+     <span class="font-medium">Shop Surface</span>
+  </div>
+ </div>
+
   </div>
 </body>
 
