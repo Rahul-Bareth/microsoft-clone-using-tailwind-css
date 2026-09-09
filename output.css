@@ -11,6 +11,8 @@
     --color-amber-100: oklch(96.2% 0.059 95.617);
     --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-amber-300: oklch(87.9% 0.169 91.605);
+    --color-green-200: oklch(92.5% 0.084 155.995);
+    --color-green-300: oklch(87.1% 0.15 154.449);
     --color-teal-200: oklch(91% 0.096 180.426);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-gray-50: oklch(98.5% 0.002 247.839);
@@ -463,6 +465,12 @@
   }
   .bg-gray-200 {
     background-color: var(--color-gray-200);
+  }
+  .bg-green-200 {
+    background-color: var(--color-green-200);
+  }
+  .bg-green-300 {
+    background-color: var(--color-green-300);
   }
   .bg-teal-200 {
     background-color: var(--color-teal-200);
