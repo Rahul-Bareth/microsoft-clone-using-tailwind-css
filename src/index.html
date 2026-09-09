@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp; Apps</title>
-  <link rel="stylesheet" href="/output.css">
+  <link rel="stylesheet" href="../output.css">
 </head>
 
 <body>
-  <div class="container mx-auto">
+  <div class="container mx-auto p-3">
     <div class="navbar flex justify-between items-center p-1">
       <div class="flex justify-center items-center md:order-2">
         <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
@@ -24,7 +24,7 @@
       <div class="logo flex text-center md:order-1">
         <div class="p-4 w-36"><img src="images/RE1Mu3b.png" alt="logo"></div>
         <div
-          class="features absolute md:static w-fit md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:items-center md:mx-4 md:space-x-3 -translate-x-100 md:translate-x-0">
+          class="features absolute md:static w-fit md:w-auto bg-gray-200 sm:hidden md:bg-white inset-0 md:flex md:items-center md:mx-4 md:space-x-3 -translate-x-100 md:translate-x-0">
           <div class="cursor-pointer hover:underline hover:underline-offset-8">Microsoft365</div>
           <div class="cursor-pointer hover:underline hover:underline-offset-8">Copilot</div>
           <div class="cursor-pointer hover:underline hover:underline-offset-8">Azure</div>
@@ -36,8 +36,8 @@
       </div>
       <div class="cart text-center md:order-3 flex md:space-x-2">
         <div class="search hidden md:block mr-6">All Microsoft</div>
-        <div class="mx-2">Search</div>
-        <img class="w-5 mr-4" src="images/search.svg" alt="search-icon">
+        <div class="mx-2 md:block hidden">Search</div>
+        <img class="w-5 mr-4 md:block hidden" src="images/search.svg" alt="search-icon">
 
         <div class="flex">
           <img class="w-5 mr-4" src="images/cart.svg" alt="cart-svg">
@@ -60,7 +60,7 @@
     </div>
 
     <div class="promo flex flex-col  md:flex-row md:justify-center space-y-4 my-10">
-      <div class="item flex items-center mx-4 space-x-2">
+      <div class="item flex items-center mx-4 space-x-4">
         <img src="images/Quick-Links-MSCOM-Apps.svg">
         <span class="font-medium">Shop Microsoft 365</span>
       </div>
@@ -107,17 +107,23 @@
     </div>
 
 
-    <div class="pc-showcase grid md:grid-cols-2 space-y-3 bg-amber-100 p-3 mx-6 my-8 rounded-2xl">
+    <div class="pc-showcase grid md:grid-cols-2 space-y-3 bg-teal-200 w-fit p-3 md:mx-6 md:my-8 rounded-2xl">
       <div class="flex flex-col items-start justify-center mx-4">
         <h2 class="text-[23px] font-medium mb-4">Designed for life today – and tomorrow</h2>
         <p>The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love.</p>
-        <button class=" md:mt-20 mt-15 bg-blue-600 py-2 px-3 text-white cursor-pointer rounded-[8px] hover:opacity-95">See if your PC is ready</button>
+        <div class="btn flex items-end justify-end pt-30">
+         <button class="bg-blue-600 font-medium py-2 px-3 text-white cursor-pointer rounded-[8px] hover:opacity-95">See if your PC is ready</button>
+        </div>
+        
       </div>
       <div>
         <img class="w-fit min-w-2xs rounded-2xl" src="images/Card-Horizontal-Windows-11-Business-Transformation.avif">
       </div> 
     </div>
-    
+
+    <div class="business-card bg-[#DCEEF8]">
+      <h2>For business</h2>
+    </div>
   </div>
 </body>
 
